@@ -5,3 +5,11 @@
 .item{
     border: 2px solid rebeccapurple;
 }
+.container-2{
+    display: grid;
+    grid-template-columns: 100px 200px 300px 400px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
